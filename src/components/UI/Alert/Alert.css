@@ -1,0 +1,39 @@
+.alert{
+    border: 1px solid black;
+    display: flex;
+    width: 400px;
+    min-height: 50px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 8px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.warning{
+    top: 15%;
+    background-color: rgba(255, 157, 0, 0.5);
+    border: 1px solid rgb(124, 76, 0, 0.3);
+    color: rgb(124, 76, 0);
+}
+
+.success{
+    top: 25%;
+    background-color: rgba(9, 141, 9, 0.5);
+    border: 1px solid rgb(7, 99, 7, 0.3);
+    color: rgb(7, 99, 7);
+}
+
+.alert_button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
